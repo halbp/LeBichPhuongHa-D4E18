@@ -1,0 +1,31 @@
+import math
+name=input("What is your name")
+print("Hello",name)
+age=input("How old are you")
+age=20
+print("Hi",age)
+personal_address=input("Where do you live")
+personal_address="Hanoi, Vietnam"
+print(personal_address)
+hobby=input("What do you like?")
+hobby="Music"
+print(hobby)
+hobby=input('Ban thich gi? ')
+print('Minh cung thich', hobby)
+Food=input("Which food do you like")
+print("I like",Food," as well")
+print(type(name))
+name=input("What is your name")
+print(type(name))
+age=input("How old are you")
+print("I guess you were born in", 2020-int(age))
+
+Weight=input("How much do you weigh? (in kg)")
+Height=input("How tall are you (in m)")
+BMI= int(Weight)/(float(Height)**2)
+print("Your BMI is",BMI)
+Radius=float(input("Enter the radius in m"))
+Area=round(math.pi*(Radius**2),2)
+Perimeter=round(math.pi*Radius*2,2)
+print(Area)
+print(Perimeter)
